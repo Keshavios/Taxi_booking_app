@@ -1,0 +1,1268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144F669B71BB085C4D58A04F /* libPods-DropPinDriverUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3403412C2C9B7AB73AF4CB88 /* libPods-DropPinDriverUITests.a */; };
+		1840E67720286525003A81C8 /* NewWithdrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E67620286524003A81C8 /* NewWithdrawVC.m */; };
+		211D611F1EDFF05700F2DD34 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D611E1EDFF05700F2DD34 /* ApiManager.m */; };
+		211D61231EDFF06300F2DD34 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D61221EDFF06300F2DD34 /* Util.m */; };
+		211D61261EDFF06800F2DD34 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D61251EDFF06800F2DD34 /* LocationManager.m */; };
+		211D612B1EDFF06D00F2DD34 /* textfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D61271EDFF06D00F2DD34 /* textfield.m */; };
+		211D612C1EDFF06D00F2DD34 /* CustomTextFeild.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D612A1EDFF06D00F2DD34 /* CustomTextFeild.m */; };
+		44B006FADFBFE7AA3B145938 /* libPods-DropPinDriverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 435A62C434BB9A3A045FD89D /* libPods-DropPinDriverTests.a */; };
+		524518AB1FB5B8310007F343 /* ThankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524518AA1FB5B8310007F343 /* ThankVC.m */; };
+		524518AF1FB5BE640007F343 /* AddBankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524518AE1FB5BE640007F343 /* AddBankVC.m */; };
+		527B46111FBC061D00D7973B /* WithdrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B46101FBC061D00D7973B /* WithdrawVC.m */; };
+		52A92D721FA88CA600111B8E /* PanicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A92D711FA88CA600111B8E /* PanicVC.m */; };
+		B704C4B51EF93F8E00EC0B45 /* PaymentHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B704C4B41EF93F8E00EC0B45 /* PaymentHistoryVC.m */; };
+		B704C4B91EF9416900EC0B45 /* MonthlyEaringDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B704C4B81EF9416900EC0B45 /* MonthlyEaringDetailVC.m */; };
+		B71CA6751EDC3CD300E7C212 /* PreviousTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CA6741EDC3CD300E7C212 /* PreviousTripVC.m */; };
+		B725DE071EDD378400EF85D1 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B725DE061EDD378400EF85D1 /* LeftMenuVC.m */; };
+		B725DE0C1EDD8FD200EF85D1 /* OtpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B725DE0B1EDD8FD200EF85D1 /* OtpVC.m */; };
+		B72F3D321F15F3970088A674 /* client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = B72F3D311F15F3970088A674 /* client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist */; };
+		B732EE841ECC74B400FA1FBE /* SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B732EE831ECC74B400FA1FBE /* SignInVC.m */; };
+		B732EE881ECC750800FA1FBE /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B732EE871ECC750800FA1FBE /* SignUpVC.m */; };
+		B732EE8C1ECC864B00FA1FBE /* VerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B732EE8B1ECC864B00FA1FBE /* VerifyVC.m */; };
+		B732EE8F1ECC866D00FA1FBE /* WelComeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B732EE8E1ECC866D00FA1FBE /* WelComeVC.m */; };
+		B73696E51EE67AAF00C09C1D /* StartNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B73696E41EE67AAF00C09C1D /* StartNavigationVC.m */; };
+		B73696E81EE67AE300C09C1D /* StartTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B73696E71EE67AE300C09C1D /* StartTripVC.m */; };
+		B73696EB1EE67AF400C09C1D /* GoPassangerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B73696EA1EE67AF400C09C1D /* GoPassangerVC.m */; };
+		B7397EFF1ECC560C005CE8E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7397EFE1ECC560C005CE8E6 /* Images.xcassets */; };
+		B73A7C551EE043C3003A8F5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73A7C541EE043C3003A8F5F /* CoreLocation.framework */; };
+		B73B0E3F1EF2B3B8002C8142 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73B0E3E1EF2B3B8002C8142 /* MapKit.framework */; };
+		B75CDE191EDBE4D1000FEDA8 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CDE181EDBE4D1000FEDA8 /* HomeVC.m */; };
+		B75CDE211EDBE9F7000FEDA8 /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CDE201EDBE9F7000FEDA8 /* Rating.m */; };
+		B75CDE251EDBEA19000FEDA8 /* AccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CDE241EDBEA19000FEDA8 /* AccountVC.m */; };
+		B75CDE281EDBEDB4000FEDA8 /* EarningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CDE271EDBEDB4000FEDA8 /* EarningVC.m */; };
+		B7737EED1ECC53020055825E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7737EEC1ECC53020055825E /* main.m */; };
+		B7737EF01ECC53030055825E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7737EEF1ECC53030055825E /* AppDelegate.m */; };
+		B7737EF31ECC53030055825E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7737EF21ECC53030055825E /* ViewController.m */; };
+		B7737EF61ECC53030055825E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7737EF41ECC53030055825E /* Main.storyboard */; };
+		B7737EF81ECC53030055825E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7737EF71ECC53030055825E /* Assets.xcassets */; };
+		B7737EFB1ECC53030055825E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7737EF91ECC53030055825E /* LaunchScreen.storyboard */; };
+		B7737F061ECC53040055825E /* DropPinDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7737F051ECC53040055825E /* DropPinDriverTests.m */; };
+		B7737F111ECC53040055825E /* DropPinDriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7737F101ECC53040055825E /* DropPinDriverUITests.m */; };
+		B778B23F1EDE847500EF64FE /* DocumentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B778B23E1EDE847500EF64FE /* DocumentVC.m */; };
+		B778B2421EDEA15600EF64FE /* UploadImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B778B2411EDEA15600EF64FE /* UploadImgVC.m */; };
+		B7A6B6051ECECC100090E824 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A6B6041ECECC100090E824 /* PageViewController.m */; };
+		B7A6B6081ECECE920090E824 /* StartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A6B6071ECECE920090E824 /* StartVC.m */; };
+		B7A6B60B1ECF13830090E824 /* SecureSlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A6B60A1ECF13830090E824 /* SecureSlideVC.m */; };
+		B7A6B60E1ECF21230090E824 /* LegalContastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A6B60D1ECF21230090E824 /* LegalContastVC.m */; };
+		B7D6E4F51EF7ADDE00163CBC /* DSBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4F41EF7ADDE00163CBC /* DSBarChart.m */; };
+		B7D6E5021EF7E59E00163CBC /* EditProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4F71EF7E59E00163CBC /* EditProfileVC.m */; };
+		B7D6E5031EF7E59E00163CBC /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4F91EF7E59E00163CBC /* HelpVC.m */; };
+		B7D6E5041EF7E59E00163CBC /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4FB1EF7E59E00163CBC /* SettingVC.m */; };
+		B7D6E5051EF7E59E00163CBC /* ChangePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4FD1EF7E59E00163CBC /* ChangePasswordVC.m */; };
+		B7D6E5061EF7E59E00163CBC /* AboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4FF1EF7E59E00163CBC /* AboutUsVC.m */; };
+		B7D6E5071EF7E59E00163CBC /* BankDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E5011EF7E59E00163CBC /* BankDetailsVC.m */; };
+		B7EAB1D11ED845AD00287041 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EAB1D01ED845AD00287041 /* TabBar.m */; };
+		B7F708F91F02373B00299AC8 /* LoginCheckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F708F81F02373A00299AC8 /* LoginCheckVC.m */; };
+		F54EBFF5CBC8925C7C6868F5 /* libPods-DropPinDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E889ECB794B0A15B7831A4A5 /* libPods-DropPinDriver.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7737F021ECC53040055825E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7737EE01ECC53010055825E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7737EE71ECC53020055825E;
+			remoteInfo = DropPinDriver;
+		};
+		B7737F0D1ECC53040055825E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7737EE01ECC53010055825E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7737EE71ECC53020055825E;
+			remoteInfo = DropPinDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1840E67520286524003A81C8 /* NewWithdrawVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewWithdrawVC.h; sourceTree = "<group>"; };
+		1840E67620286524003A81C8 /* NewWithdrawVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewWithdrawVC.m; sourceTree = "<group>"; };
+		211D611D1EDFF05700F2DD34 /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		211D611E1EDFF05700F2DD34 /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		211D61201EDFF05C00F2DD34 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		211D61211EDFF06300F2DD34 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		211D61221EDFF06300F2DD34 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		211D61241EDFF06800F2DD34 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		211D61251EDFF06800F2DD34 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		211D61271EDFF06D00F2DD34 /* textfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textfield.m; sourceTree = "<group>"; };
+		211D61281EDFF06D00F2DD34 /* textfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textfield.h; sourceTree = "<group>"; };
+		211D61291EDFF06D00F2DD34 /* CustomTextFeild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFeild.h; sourceTree = "<group>"; };
+		211D612A1EDFF06D00F2DD34 /* CustomTextFeild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFeild.m; sourceTree = "<group>"; };
+		3403412C2C9B7AB73AF4CB88 /* libPods-DropPinDriverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DropPinDriverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		435A62C434BB9A3A045FD89D /* libPods-DropPinDriverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DropPinDriverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524518A91FB5B8310007F343 /* ThankVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThankVC.h; sourceTree = "<group>"; };
+		524518AA1FB5B8310007F343 /* ThankVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThankVC.m; sourceTree = "<group>"; };
+		524518AD1FB5BE640007F343 /* AddBankVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBankVC.h; sourceTree = "<group>"; };
+		524518AE1FB5BE640007F343 /* AddBankVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBankVC.m; sourceTree = "<group>"; };
+		527B460F1FBC061D00D7973B /* WithdrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawVC.h; sourceTree = "<group>"; };
+		527B46101FBC061D00D7973B /* WithdrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawVC.m; sourceTree = "<group>"; };
+		52A92D701FA88CA600111B8E /* PanicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanicVC.h; sourceTree = "<group>"; };
+		52A92D711FA88CA600111B8E /* PanicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanicVC.m; sourceTree = "<group>"; };
+		751532657ADDCA1830F0B2B4 /* Pods-DropPinDriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriverUITests/Pods-DropPinDriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		836F5C3088EEA9437614E3DA /* Pods-DropPinDriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriverTests/Pods-DropPinDriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		A92B67719ACD73B3639C3D70 /* Pods-DropPinDriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriverUITests/Pods-DropPinDriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE2C61D70E5398FE47CCA58 /* Pods-DropPinDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriver/Pods-DropPinDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		B704C4B31EF93F8E00EC0B45 /* PaymentHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentHistoryVC.h; sourceTree = "<group>"; };
+		B704C4B41EF93F8E00EC0B45 /* PaymentHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentHistoryVC.m; sourceTree = "<group>"; };
+		B704C4B71EF9416900EC0B45 /* MonthlyEaringDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyEaringDetailVC.h; sourceTree = "<group>"; };
+		B704C4B81EF9416900EC0B45 /* MonthlyEaringDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyEaringDetailVC.m; sourceTree = "<group>"; };
+		B71CA6731EDC3CD300E7C212 /* PreviousTripVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousTripVC.h; sourceTree = "<group>"; };
+		B71CA6741EDC3CD300E7C212 /* PreviousTripVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousTripVC.m; sourceTree = "<group>"; };
+		B725DE051EDD378400EF85D1 /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuVC.h; sourceTree = "<group>"; };
+		B725DE061EDD378400EF85D1 /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
+		B725DE0A1EDD8FD200EF85D1 /* OtpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtpVC.h; sourceTree = "<group>"; };
+		B725DE0B1EDD8FD200EF85D1 /* OtpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtpVC.m; sourceTree = "<group>"; };
+		B727266E1EEAC4ED009E4F65 /* DropPinDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DropPinDriver.entitlements; sourceTree = "<group>"; };
+		B72F3D311F15F3970088A674 /* client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		B732EE821ECC74B400FA1FBE /* SignInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInVC.h; sourceTree = "<group>"; };
+		B732EE831ECC74B400FA1FBE /* SignInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInVC.m; sourceTree = "<group>"; };
+		B732EE861ECC750800FA1FBE /* SignUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpVC.h; sourceTree = "<group>"; };
+		B732EE871ECC750800FA1FBE /* SignUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpVC.m; sourceTree = "<group>"; };
+		B732EE891ECC770200FA1FBE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B732EE8A1ECC864B00FA1FBE /* VerifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyVC.h; sourceTree = "<group>"; };
+		B732EE8B1ECC864B00FA1FBE /* VerifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyVC.m; sourceTree = "<group>"; };
+		B732EE8D1ECC866D00FA1FBE /* WelComeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelComeVC.h; sourceTree = "<group>"; };
+		B732EE8E1ECC866D00FA1FBE /* WelComeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelComeVC.m; sourceTree = "<group>"; };
+		B73696E31EE67AAF00C09C1D /* StartNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartNavigationVC.h; sourceTree = "<group>"; };
+		B73696E41EE67AAF00C09C1D /* StartNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartNavigationVC.m; sourceTree = "<group>"; };
+		B73696E61EE67AE300C09C1D /* StartTripVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTripVC.h; sourceTree = "<group>"; };
+		B73696E71EE67AE300C09C1D /* StartTripVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTripVC.m; sourceTree = "<group>"; };
+		B73696E91EE67AF400C09C1D /* GoPassangerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoPassangerVC.h; sourceTree = "<group>"; };
+		B73696EA1EE67AF400C09C1D /* GoPassangerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoPassangerVC.m; sourceTree = "<group>"; };
+		B7397EFE1ECC560C005CE8E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B73A7C541EE043C3003A8F5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B73B0E3E1EF2B3B8002C8142 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B75CDE171EDBE4D1000FEDA8 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		B75CDE181EDBE4D1000FEDA8 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		B75CDE1F1EDBE9F7000FEDA8 /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		B75CDE201EDBE9F7000FEDA8 /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		B75CDE231EDBEA19000FEDA8 /* AccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountVC.h; sourceTree = "<group>"; };
+		B75CDE241EDBEA19000FEDA8 /* AccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountVC.m; sourceTree = "<group>"; };
+		B75CDE261EDBEDB4000FEDA8 /* EarningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarningVC.h; sourceTree = "<group>"; };
+		B75CDE271EDBEDB4000FEDA8 /* EarningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarningVC.m; sourceTree = "<group>"; };
+		B7737EE81ECC53020055825E /* DropPinDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropPinDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7737EEC1ECC53020055825E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7737EEE1ECC53030055825E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7737EEF1ECC53030055825E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7737EF11ECC53030055825E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7737EF21ECC53030055825E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7737EF51ECC53030055825E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7737EF71ECC53030055825E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7737EFA1ECC53030055825E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7737EFC1ECC53030055825E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7737F011ECC53040055825E /* DropPinDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropPinDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7737F051ECC53040055825E /* DropPinDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropPinDriverTests.m; sourceTree = "<group>"; };
+		B7737F071ECC53040055825E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7737F0C1ECC53040055825E /* DropPinDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropPinDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7737F101ECC53040055825E /* DropPinDriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropPinDriverUITests.m; sourceTree = "<group>"; };
+		B7737F121ECC53040055825E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B778B23D1EDE847500EF64FE /* DocumentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentVC.h; sourceTree = "<group>"; };
+		B778B23E1EDE847500EF64FE /* DocumentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentVC.m; sourceTree = "<group>"; };
+		B778B2401EDEA15600EF64FE /* UploadImgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImgVC.h; sourceTree = "<group>"; };
+		B778B2411EDEA15600EF64FE /* UploadImgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImgVC.m; sourceTree = "<group>"; };
+		B7A6B6031ECECC100090E824 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		B7A6B6041ECECC100090E824 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		B7A6B6061ECECE920090E824 /* StartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartVC.h; sourceTree = "<group>"; };
+		B7A6B6071ECECE920090E824 /* StartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartVC.m; sourceTree = "<group>"; };
+		B7A6B6091ECF13830090E824 /* SecureSlideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureSlideVC.h; sourceTree = "<group>"; };
+		B7A6B60A1ECF13830090E824 /* SecureSlideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureSlideVC.m; sourceTree = "<group>"; };
+		B7A6B60C1ECF21230090E824 /* LegalContastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegalContastVC.h; sourceTree = "<group>"; };
+		B7A6B60D1ECF21230090E824 /* LegalContastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegalContastVC.m; sourceTree = "<group>"; };
+		B7D6E4F31EF7ADDE00163CBC /* DSBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBarChart.h; sourceTree = "<group>"; };
+		B7D6E4F41EF7ADDE00163CBC /* DSBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBarChart.m; sourceTree = "<group>"; };
+		B7D6E4F61EF7E59E00163CBC /* EditProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileVC.h; sourceTree = "<group>"; };
+		B7D6E4F71EF7E59E00163CBC /* EditProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileVC.m; sourceTree = "<group>"; };
+		B7D6E4F81EF7E59E00163CBC /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
+		B7D6E4F91EF7E59E00163CBC /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
+		B7D6E4FA1EF7E59E00163CBC /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		B7D6E4FB1EF7E59E00163CBC /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		B7D6E4FC1EF7E59E00163CBC /* ChangePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordVC.h; sourceTree = "<group>"; };
+		B7D6E4FD1EF7E59E00163CBC /* ChangePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordVC.m; sourceTree = "<group>"; };
+		B7D6E4FE1EF7E59E00163CBC /* AboutUsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsVC.h; sourceTree = "<group>"; };
+		B7D6E4FF1EF7E59E00163CBC /* AboutUsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsVC.m; sourceTree = "<group>"; };
+		B7D6E5001EF7E59E00163CBC /* BankDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDetailsVC.h; sourceTree = "<group>"; };
+		B7D6E5011EF7E59E00163CBC /* BankDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankDetailsVC.m; sourceTree = "<group>"; };
+		B7EAB1CF1ED845AD00287041 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		B7EAB1D01ED845AD00287041 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		B7F708F71F02373A00299AC8 /* LoginCheckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCheckVC.h; sourceTree = "<group>"; };
+		B7F708F81F02373A00299AC8 /* LoginCheckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCheckVC.m; sourceTree = "<group>"; };
+		DDCED2DD1FFB8F1612A63915 /* Pods-DropPinDriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriverTests/Pods-DropPinDriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E889ECB794B0A15B7831A4A5 /* libPods-DropPinDriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DropPinDriver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC785E1362A8107CD4D37768 /* Pods-DropPinDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropPinDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropPinDriver/Pods-DropPinDriver.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7737EE51ECC53020055825E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73B0E3F1EF2B3B8002C8142 /* MapKit.framework in Frameworks */,
+				B73A7C551EE043C3003A8F5F /* CoreLocation.framework in Frameworks */,
+				F54EBFF5CBC8925C7C6868F5 /* libPods-DropPinDriver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737EFE1ECC53040055825E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B006FADFBFE7AA3B145938 /* libPods-DropPinDriverTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737F091ECC53040055825E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144F669B71BB085C4D58A04F /* libPods-DropPinDriverUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211D611C1EDFF04300F2DD34 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				211D61271EDFF06D00F2DD34 /* textfield.m */,
+				211D61281EDFF06D00F2DD34 /* textfield.h */,
+				211D61291EDFF06D00F2DD34 /* CustomTextFeild.h */,
+				211D612A1EDFF06D00F2DD34 /* CustomTextFeild.m */,
+				211D61241EDFF06800F2DD34 /* LocationManager.h */,
+				211D61251EDFF06800F2DD34 /* LocationManager.m */,
+				211D61211EDFF06300F2DD34 /* Util.h */,
+				211D61221EDFF06300F2DD34 /* Util.m */,
+				211D61201EDFF05C00F2DD34 /* Macro.h */,
+				211D611D1EDFF05700F2DD34 /* ApiManager.h */,
+				211D611E1EDFF05700F2DD34 /* ApiManager.m */,
+			);
+			name = "Common Files";
+			sourceTree = "<group>";
+		};
+		2A4257D42753280D89C51C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C61D70E5398FE47CCA58 /* Pods-DropPinDriver.debug.xcconfig */,
+				EC785E1362A8107CD4D37768 /* Pods-DropPinDriver.release.xcconfig */,
+				DDCED2DD1FFB8F1612A63915 /* Pods-DropPinDriverTests.debug.xcconfig */,
+				836F5C3088EEA9437614E3DA /* Pods-DropPinDriverTests.release.xcconfig */,
+				A92B67719ACD73B3639C3D70 /* Pods-DropPinDriverUITests.debug.xcconfig */,
+				751532657ADDCA1830F0B2B4 /* Pods-DropPinDriverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D25ED6DC0BBFE9360A0A688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73B0E3E1EF2B3B8002C8142 /* MapKit.framework */,
+				B73A7C541EE043C3003A8F5F /* CoreLocation.framework */,
+				E889ECB794B0A15B7831A4A5 /* libPods-DropPinDriver.a */,
+				435A62C434BB9A3A045FD89D /* libPods-DropPinDriverTests.a */,
+				3403412C2C9B7AB73AF4CB88 /* libPods-DropPinDriverUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		524518A81FB5B8130007F343 /* Thank */ = {
+			isa = PBXGroup;
+			children = (
+				524518A91FB5B8310007F343 /* ThankVC.h */,
+				524518AA1FB5B8310007F343 /* ThankVC.m */,
+			);
+			name = Thank;
+			sourceTree = "<group>";
+		};
+		524518AC1FB5BE2C0007F343 /* AddBank */ = {
+			isa = PBXGroup;
+			children = (
+				524518AD1FB5BE640007F343 /* AddBankVC.h */,
+				524518AE1FB5BE640007F343 /* AddBankVC.m */,
+			);
+			name = AddBank;
+			sourceTree = "<group>";
+		};
+		527B460E1FBC05E600D7973B /* withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				527B460F1FBC061D00D7973B /* WithdrawVC.h */,
+				527B46101FBC061D00D7973B /* WithdrawVC.m */,
+				1840E67520286524003A81C8 /* NewWithdrawVC.h */,
+				1840E67620286524003A81C8 /* NewWithdrawVC.m */,
+			);
+			name = withdraw;
+			sourceTree = "<group>";
+		};
+		52A92D6F1FA88BD100111B8E /* Panic */ = {
+			isa = PBXGroup;
+			children = (
+				52A92D701FA88CA600111B8E /* PanicVC.h */,
+				52A92D711FA88CA600111B8E /* PanicVC.m */,
+			);
+			name = Panic;
+			sourceTree = "<group>";
+		};
+		B704C4B21EF93F5800EC0B45 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				B704C4B31EF93F8E00EC0B45 /* PaymentHistoryVC.h */,
+				B704C4B41EF93F8E00EC0B45 /* PaymentHistoryVC.m */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		B704C4B61EF9410000EC0B45 /* EarningMonthdetail */ = {
+			isa = PBXGroup;
+			children = (
+				B704C4B71EF9416900EC0B45 /* MonthlyEaringDetailVC.h */,
+				B704C4B81EF9416900EC0B45 /* MonthlyEaringDetailVC.m */,
+			);
+			name = EarningMonthdetail;
+			sourceTree = "<group>";
+		};
+		B71CA6721EDC3CA100E7C212 /* PreviousTripVC */ = {
+			isa = PBXGroup;
+			children = (
+				B71CA6731EDC3CD300E7C212 /* PreviousTripVC.h */,
+				B71CA6741EDC3CD300E7C212 /* PreviousTripVC.m */,
+			);
+			name = PreviousTripVC;
+			sourceTree = "<group>";
+		};
+		B725DE041EDD376000EF85D1 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B725DE051EDD378400EF85D1 /* LeftMenuVC.h */,
+				B725DE061EDD378400EF85D1 /* LeftMenuVC.m */,
+			);
+			name = LeftMenu;
+			sourceTree = "<group>";
+		};
+		B732EE811ECC744800FA1FBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				524518A81FB5B8130007F343 /* Thank */,
+				52A92D6F1FA88BD100111B8E /* Panic */,
+				B704C4B61EF9410000EC0B45 /* EarningMonthdetail */,
+				B704C4B21EF93F5800EC0B45 /* Payment */,
+				B7D6E50D1EF7FBA200163CBC /* bankDetails */,
+				B7D6E50C1EF7FB9300163CBC /* aboutusVC */,
+				B7D6E50B1EF7FB8500163CBC /* changePswdVC */,
+				B7D6E50A1EF7FB7900163CBC /* settingVC */,
+				B7D6E5091EF7FB6A00163CBC /* helpVC */,
+				B7D6E5081EF7FB4600163CBC /* EditProfileVC */,
+				B73696E21EE67A0200C09C1D /* StartNavigationVC */,
+				B73696E11EE679F400C09C1D /* StartTripVC */,
+				B73696E01EE679E100C09C1D /* GoPassangerVC */,
+				B778B23C1EDE844F00EF64FE /* DocumentVC */,
+				B725DE041EDD376000EF85D1 /* LeftMenu */,
+				B71CA6721EDC3CA100E7C212 /* PreviousTripVC */,
+				B75CDE221EDBEA00000FEDA8 /* Tab4 */,
+				B75CDE1E1EDBE998000FEDA8 /* Tab3 */,
+				B75CDE1A1EDBE97D000FEDA8 /* Tab2 */,
+				B75CDE161EDBE4A2000FEDA8 /* Tab1 */,
+				B7A6B6021ECECBCC0090E824 /* PageViewController */,
+				B732EE851ECC74EB00FA1FBE /* SignIn/SignUp */,
+				B732EE8A1ECC864B00FA1FBE /* VerifyVC.h */,
+				B732EE8B1ECC864B00FA1FBE /* VerifyVC.m */,
+				B732EE8D1ECC866D00FA1FBE /* WelComeVC.h */,
+				B732EE8E1ECC866D00FA1FBE /* WelComeVC.m */,
+				B7A6B60C1ECF21230090E824 /* LegalContastVC.h */,
+				B7A6B60D1ECF21230090E824 /* LegalContastVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B732EE851ECC74EB00FA1FBE /* SignIn/SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B732EE821ECC74B400FA1FBE /* SignInVC.h */,
+				B732EE831ECC74B400FA1FBE /* SignInVC.m */,
+				B732EE861ECC750800FA1FBE /* SignUpVC.h */,
+				B732EE871ECC750800FA1FBE /* SignUpVC.m */,
+				B725DE0A1EDD8FD200EF85D1 /* OtpVC.h */,
+				B725DE0B1EDD8FD200EF85D1 /* OtpVC.m */,
+				B7F708F71F02373A00299AC8 /* LoginCheckVC.h */,
+				B7F708F81F02373A00299AC8 /* LoginCheckVC.m */,
+			);
+			name = SignIn/SignUp;
+			sourceTree = "<group>";
+		};
+		B73696E01EE679E100C09C1D /* GoPassangerVC */ = {
+			isa = PBXGroup;
+			children = (
+				B73696E91EE67AF400C09C1D /* GoPassangerVC.h */,
+				B73696EA1EE67AF400C09C1D /* GoPassangerVC.m */,
+			);
+			name = GoPassangerVC;
+			sourceTree = "<group>";
+		};
+		B73696E11EE679F400C09C1D /* StartTripVC */ = {
+			isa = PBXGroup;
+			children = (
+				B73696E61EE67AE300C09C1D /* StartTripVC.h */,
+				B73696E71EE67AE300C09C1D /* StartTripVC.m */,
+			);
+			name = StartTripVC;
+			sourceTree = "<group>";
+		};
+		B73696E21EE67A0200C09C1D /* StartNavigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				B73696E31EE67AAF00C09C1D /* StartNavigationVC.h */,
+				B73696E41EE67AAF00C09C1D /* StartNavigationVC.m */,
+			);
+			name = StartNavigationVC;
+			sourceTree = "<group>";
+		};
+		B75CDE161EDBE4A2000FEDA8 /* Tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				B75CDE171EDBE4D1000FEDA8 /* HomeVC.h */,
+				B75CDE181EDBE4D1000FEDA8 /* HomeVC.m */,
+			);
+			name = Tab1;
+			sourceTree = "<group>";
+		};
+		B75CDE1A1EDBE97D000FEDA8 /* Tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				B75CDE261EDBEDB4000FEDA8 /* EarningVC.h */,
+				B75CDE271EDBEDB4000FEDA8 /* EarningVC.m */,
+			);
+			name = Tab2;
+			sourceTree = "<group>";
+		};
+		B75CDE1E1EDBE998000FEDA8 /* Tab3 */ = {
+			isa = PBXGroup;
+			children = (
+				B75CDE1F1EDBE9F7000FEDA8 /* Rating.h */,
+				B75CDE201EDBE9F7000FEDA8 /* Rating.m */,
+			);
+			name = Tab3;
+			sourceTree = "<group>";
+		};
+		B75CDE221EDBEA00000FEDA8 /* Tab4 */ = {
+			isa = PBXGroup;
+			children = (
+				B75CDE231EDBEA19000FEDA8 /* AccountVC.h */,
+				B75CDE241EDBEA19000FEDA8 /* AccountVC.m */,
+			);
+			name = Tab4;
+			sourceTree = "<group>";
+		};
+		B7737EDF1ECC53010055825E = {
+			isa = PBXGroup;
+			children = (
+				B7737EEA1ECC53020055825E /* DropPinDriver */,
+				B7737F041ECC53040055825E /* DropPinDriverTests */,
+				B7737F0F1ECC53040055825E /* DropPinDriverUITests */,
+				B7737EE91ECC53020055825E /* Products */,
+				2A4257D42753280D89C51C3F /* Pods */,
+				2D25ED6DC0BBFE9360A0A688 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7737EE91ECC53020055825E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7737EE81ECC53020055825E /* DropPinDriver.app */,
+				B7737F011ECC53040055825E /* DropPinDriverTests.xctest */,
+				B7737F0C1ECC53040055825E /* DropPinDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7737EEA1ECC53020055825E /* DropPinDriver */ = {
+			isa = PBXGroup;
+			children = (
+				527B460E1FBC05E600D7973B /* withdraw */,
+				524518AC1FB5BE2C0007F343 /* AddBank */,
+				B7D6E4F21EF7ADCE00163CBC /* GraphClasses */,
+				B727266E1EEAC4ED009E4F65 /* DropPinDriver.entitlements */,
+				211D611C1EDFF04300F2DD34 /* Common Files */,
+				B7EAB1CB1ED8452E00287041 /* TabBar */,
+				B732EE811ECC744800FA1FBE /* ViewControllers */,
+				B7737EEE1ECC53030055825E /* AppDelegate.h */,
+				B7737EEF1ECC53030055825E /* AppDelegate.m */,
+				B7737EF11ECC53030055825E /* ViewController.h */,
+				B7737EF21ECC53030055825E /* ViewController.m */,
+				B7737EF41ECC53030055825E /* Main.storyboard */,
+				B7737EF71ECC53030055825E /* Assets.xcassets */,
+				B7737EF91ECC53030055825E /* LaunchScreen.storyboard */,
+				B7737EFC1ECC53030055825E /* Info.plist */,
+				B7397EFE1ECC560C005CE8E6 /* Images.xcassets */,
+				B7737EEB1ECC53020055825E /* Supporting Files */,
+			);
+			path = DropPinDriver;
+			sourceTree = "<group>";
+		};
+		B7737EEB1ECC53020055825E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72F3D311F15F3970088A674 /* client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist */,
+				B7737EEC1ECC53020055825E /* main.m */,
+				B732EE891ECC770200FA1FBE /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7737F041ECC53040055825E /* DropPinDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7737F051ECC53040055825E /* DropPinDriverTests.m */,
+				B7737F071ECC53040055825E /* Info.plist */,
+			);
+			path = DropPinDriverTests;
+			sourceTree = "<group>";
+		};
+		B7737F0F1ECC53040055825E /* DropPinDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7737F101ECC53040055825E /* DropPinDriverUITests.m */,
+				B7737F121ECC53040055825E /* Info.plist */,
+			);
+			path = DropPinDriverUITests;
+			sourceTree = "<group>";
+		};
+		B778B23C1EDE844F00EF64FE /* DocumentVC */ = {
+			isa = PBXGroup;
+			children = (
+				B778B23D1EDE847500EF64FE /* DocumentVC.h */,
+				B778B23E1EDE847500EF64FE /* DocumentVC.m */,
+				B778B2401EDEA15600EF64FE /* UploadImgVC.h */,
+				B778B2411EDEA15600EF64FE /* UploadImgVC.m */,
+			);
+			name = DocumentVC;
+			sourceTree = "<group>";
+		};
+		B7A6B6021ECECBCC0090E824 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6B6031ECECC100090E824 /* PageViewController.h */,
+				B7A6B6041ECECC100090E824 /* PageViewController.m */,
+				B7A6B6061ECECE920090E824 /* StartVC.h */,
+				B7A6B6071ECECE920090E824 /* StartVC.m */,
+				B7A6B6091ECF13830090E824 /* SecureSlideVC.h */,
+				B7A6B60A1ECF13830090E824 /* SecureSlideVC.m */,
+			);
+			name = PageViewController;
+			sourceTree = "<group>";
+		};
+		B7D6E4F21EF7ADCE00163CBC /* GraphClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4F31EF7ADDE00163CBC /* DSBarChart.h */,
+				B7D6E4F41EF7ADDE00163CBC /* DSBarChart.m */,
+			);
+			name = GraphClasses;
+			sourceTree = "<group>";
+		};
+		B7D6E5081EF7FB4600163CBC /* EditProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4F61EF7E59E00163CBC /* EditProfileVC.h */,
+				B7D6E4F71EF7E59E00163CBC /* EditProfileVC.m */,
+			);
+			name = EditProfileVC;
+			sourceTree = "<group>";
+		};
+		B7D6E5091EF7FB6A00163CBC /* helpVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4F81EF7E59E00163CBC /* HelpVC.h */,
+				B7D6E4F91EF7E59E00163CBC /* HelpVC.m */,
+			);
+			name = helpVC;
+			sourceTree = "<group>";
+		};
+		B7D6E50A1EF7FB7900163CBC /* settingVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4FA1EF7E59E00163CBC /* SettingVC.h */,
+				B7D6E4FB1EF7E59E00163CBC /* SettingVC.m */,
+			);
+			name = settingVC;
+			sourceTree = "<group>";
+		};
+		B7D6E50B1EF7FB8500163CBC /* changePswdVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4FC1EF7E59E00163CBC /* ChangePasswordVC.h */,
+				B7D6E4FD1EF7E59E00163CBC /* ChangePasswordVC.m */,
+			);
+			name = changePswdVC;
+			sourceTree = "<group>";
+		};
+		B7D6E50C1EF7FB9300163CBC /* aboutusVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E4FE1EF7E59E00163CBC /* AboutUsVC.h */,
+				B7D6E4FF1EF7E59E00163CBC /* AboutUsVC.m */,
+			);
+			name = aboutusVC;
+			sourceTree = "<group>";
+		};
+		B7D6E50D1EF7FBA200163CBC /* bankDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6E5001EF7E59E00163CBC /* BankDetailsVC.h */,
+				B7D6E5011EF7E59E00163CBC /* BankDetailsVC.m */,
+			);
+			name = bankDetails;
+			sourceTree = "<group>";
+		};
+		B7EAB1CB1ED8452E00287041 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAB1CF1ED845AD00287041 /* TabBar.h */,
+				B7EAB1D01ED845AD00287041 /* TabBar.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7737EE71ECC53020055825E /* DropPinDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7737F151ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriver" */;
+			buildPhases = (
+				1EC36165937159A999F7AA52 /* [CP] Check Pods Manifest.lock */,
+				B7737EE41ECC53020055825E /* Sources */,
+				B7737EE51ECC53020055825E /* Frameworks */,
+				B7737EE61ECC53020055825E /* Resources */,
+				606F467F356C67C08D6AAD8F /* [CP] Embed Pods Frameworks */,
+				F97557EE45D24F6028B20F90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropPinDriver;
+			productName = DropPinDriver;
+			productReference = B7737EE81ECC53020055825E /* DropPinDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7737F001ECC53040055825E /* DropPinDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7737F181ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriverTests" */;
+			buildPhases = (
+				17DDA34FC196AD693EACCDB6 /* [CP] Check Pods Manifest.lock */,
+				B7737EFD1ECC53040055825E /* Sources */,
+				B7737EFE1ECC53040055825E /* Frameworks */,
+				B7737EFF1ECC53040055825E /* Resources */,
+				6A66E978DC6DA9FDADF25DC2 /* [CP] Embed Pods Frameworks */,
+				DC5FE3A3C4B2F4183DEC3B2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7737F031ECC53040055825E /* PBXTargetDependency */,
+			);
+			name = DropPinDriverTests;
+			productName = DropPinDriverTests;
+			productReference = B7737F011ECC53040055825E /* DropPinDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7737F0B1ECC53040055825E /* DropPinDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7737F1B1ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriverUITests" */;
+			buildPhases = (
+				48483E5149BD34645B8A03D4 /* [CP] Check Pods Manifest.lock */,
+				B7737F081ECC53040055825E /* Sources */,
+				B7737F091ECC53040055825E /* Frameworks */,
+				B7737F0A1ECC53040055825E /* Resources */,
+				031C220F41D086780F9C0F53 /* [CP] Embed Pods Frameworks */,
+				8AB5BA47440F0EBB6441E54A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7737F0E1ECC53040055825E /* PBXTargetDependency */,
+			);
+			name = DropPinDriverUITests;
+			productName = DropPinDriverUITests;
+			productReference = B7737F0C1ECC53040055825E /* DropPinDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7737EE01ECC53010055825E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ajay kumar";
+				TargetAttributes = {
+					B7737EE71ECC53020055825E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4XVQBWH9QF;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					B7737F001ECC53040055825E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z39NUD2KRL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7737EE71ECC53020055825E;
+					};
+					B7737F0B1ECC53040055825E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z39NUD2KRL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7737EE71ECC53020055825E;
+					};
+				};
+			};
+			buildConfigurationList = B7737EE31ECC53020055825E /* Build configuration list for PBXProject "DropPinDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7737EDF1ECC53010055825E;
+			productRefGroup = B7737EE91ECC53020055825E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7737EE71ECC53020055825E /* DropPinDriver */,
+				B7737F001ECC53040055825E /* DropPinDriverTests */,
+				B7737F0B1ECC53040055825E /* DropPinDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7737EE61ECC53020055825E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7737EFB1ECC53030055825E /* LaunchScreen.storyboard in Resources */,
+				B7397EFF1ECC560C005CE8E6 /* Images.xcassets in Resources */,
+				B7737EF81ECC53030055825E /* Assets.xcassets in Resources */,
+				B7737EF61ECC53030055825E /* Main.storyboard in Resources */,
+				B72F3D321F15F3970088A674 /* client_287278255031-4g22gaik99jipf1lcc9j0qoend2ndd5a.apps.googleusercontent.com.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737EFF1ECC53040055825E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737F0A1ECC53040055825E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031C220F41D086780F9C0F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriverUITests/Pods-DropPinDriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17DDA34FC196AD693EACCDB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropPinDriverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC36165937159A999F7AA52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropPinDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48483E5149BD34645B8A03D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropPinDriverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606F467F356C67C08D6AAD8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriver/Pods-DropPinDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A66E978DC6DA9FDADF25DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriverTests/Pods-DropPinDriverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB5BA47440F0EBB6441E54A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriverUITests/Pods-DropPinDriverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5FE3A3C4B2F4183DEC3B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriverTests/Pods-DropPinDriverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97557EE45D24F6028B20F90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriver/Pods-DropPinDriver-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropPinDriver/Pods-DropPinDriver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7737EE41ECC53020055825E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211D61261EDFF06800F2DD34 /* LocationManager.m in Sources */,
+				B704C4B51EF93F8E00EC0B45 /* PaymentHistoryVC.m in Sources */,
+				B75CDE211EDBE9F7000FEDA8 /* Rating.m in Sources */,
+				B732EE881ECC750800FA1FBE /* SignUpVC.m in Sources */,
+				524518AF1FB5BE640007F343 /* AddBankVC.m in Sources */,
+				B725DE071EDD378400EF85D1 /* LeftMenuVC.m in Sources */,
+				B75CDE251EDBEA19000FEDA8 /* AccountVC.m in Sources */,
+				1840E67720286525003A81C8 /* NewWithdrawVC.m in Sources */,
+				211D61231EDFF06300F2DD34 /* Util.m in Sources */,
+				B725DE0C1EDD8FD200EF85D1 /* OtpVC.m in Sources */,
+				B75CDE191EDBE4D1000FEDA8 /* HomeVC.m in Sources */,
+				B7D6E4F51EF7ADDE00163CBC /* DSBarChart.m in Sources */,
+				B7D6E5061EF7E59E00163CBC /* AboutUsVC.m in Sources */,
+				B71CA6751EDC3CD300E7C212 /* PreviousTripVC.m in Sources */,
+				B7A6B60B1ECF13830090E824 /* SecureSlideVC.m in Sources */,
+				211D611F1EDFF05700F2DD34 /* ApiManager.m in Sources */,
+				B778B23F1EDE847500EF64FE /* DocumentVC.m in Sources */,
+				B7EAB1D11ED845AD00287041 /* TabBar.m in Sources */,
+				B7D6E5071EF7E59E00163CBC /* BankDetailsVC.m in Sources */,
+				B732EE841ECC74B400FA1FBE /* SignInVC.m in Sources */,
+				B7A6B60E1ECF21230090E824 /* LegalContastVC.m in Sources */,
+				524518AB1FB5B8310007F343 /* ThankVC.m in Sources */,
+				B7A6B6081ECECE920090E824 /* StartVC.m in Sources */,
+				B7D6E5051EF7E59E00163CBC /* ChangePasswordVC.m in Sources */,
+				B732EE8C1ECC864B00FA1FBE /* VerifyVC.m in Sources */,
+				B732EE8F1ECC866D00FA1FBE /* WelComeVC.m in Sources */,
+				B73696E81EE67AE300C09C1D /* StartTripVC.m in Sources */,
+				211D612C1EDFF06D00F2DD34 /* CustomTextFeild.m in Sources */,
+				211D612B1EDFF06D00F2DD34 /* textfield.m in Sources */,
+				B75CDE281EDBEDB4000FEDA8 /* EarningVC.m in Sources */,
+				B7D6E5031EF7E59E00163CBC /* HelpVC.m in Sources */,
+				B73696EB1EE67AF400C09C1D /* GoPassangerVC.m in Sources */,
+				B73696E51EE67AAF00C09C1D /* StartNavigationVC.m in Sources */,
+				B7D6E5021EF7E59E00163CBC /* EditProfileVC.m in Sources */,
+				B7F708F91F02373B00299AC8 /* LoginCheckVC.m in Sources */,
+				52A92D721FA88CA600111B8E /* PanicVC.m in Sources */,
+				527B46111FBC061D00D7973B /* WithdrawVC.m in Sources */,
+				B7737EF31ECC53030055825E /* ViewController.m in Sources */,
+				B7737EF01ECC53030055825E /* AppDelegate.m in Sources */,
+				B778B2421EDEA15600EF64FE /* UploadImgVC.m in Sources */,
+				B7D6E5041EF7E59E00163CBC /* SettingVC.m in Sources */,
+				B7A6B6051ECECC100090E824 /* PageViewController.m in Sources */,
+				B7737EED1ECC53020055825E /* main.m in Sources */,
+				B704C4B91EF9416900EC0B45 /* MonthlyEaringDetailVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737EFD1ECC53040055825E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7737F061ECC53040055825E /* DropPinDriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7737F081ECC53040055825E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7737F111ECC53040055825E /* DropPinDriverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7737F031ECC53040055825E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7737EE71ECC53020055825E /* DropPinDriver */;
+			targetProxy = B7737F021ECC53040055825E /* PBXContainerItemProxy */;
+		};
+		B7737F0E1ECC53040055825E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7737EE71ECC53020055825E /* DropPinDriver */;
+			targetProxy = B7737F0D1ECC53040055825E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7737EF41ECC53030055825E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7737EF51ECC53030055825E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7737EF91ECC53030055825E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7737EFA1ECC53030055825E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7737F131ECC53040055825E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7737F141ECC53040055825E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7737F161ECC53040055825E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE2C61D70E5398FE47CCA58 /* Pods-DropPinDriver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DropPinDriver/DropPinDriver.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: A Kumar (FJ54PY86NF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: A Kumar (FJ54PY86NF)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4XVQBWH9QF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DropPinDriver/PrefixHeader.pch;
+				INFOPLIST_FILE = DropPinDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TexiLiveDriverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2593d4ec-9279-415e-b770-7d96472befbd";
+				PROVISIONING_PROFILE_SPECIFIER = taxiDriver_Dev;
+			};
+			name = Debug;
+		};
+		B7737F171ECC53040055825E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC785E1362A8107CD4D37768 /* Pods-DropPinDriver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DropPinDriver/DropPinDriver.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: A Kumar (FJ54PY86NF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: A Kumar (FJ54PY86NF)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4XVQBWH9QF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DropPinDriver/PrefixHeader.pch;
+				INFOPLIST_FILE = DropPinDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TexiLiveDriverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2593d4ec-9279-415e-b770-7d96472befbd";
+				PROVISIONING_PROFILE_SPECIFIER = taxiDriver_Dev;
+			};
+			name = Release;
+		};
+		B7737F191ECC53040055825E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCED2DD1FFB8F1612A63915 /* Pods-DropPinDriverTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z39NUD2KRL;
+				INFOPLIST_FILE = DropPinDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DropPinDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropPinDriver.app/DropPinDriver";
+			};
+			name = Debug;
+		};
+		B7737F1A1ECC53040055825E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836F5C3088EEA9437614E3DA /* Pods-DropPinDriverTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z39NUD2KRL;
+				INFOPLIST_FILE = DropPinDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DropPinDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropPinDriver.app/DropPinDriver";
+			};
+			name = Release;
+		};
+		B7737F1C1ECC53040055825E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92B67719ACD73B3639C3D70 /* Pods-DropPinDriverUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z39NUD2KRL;
+				INFOPLIST_FILE = DropPinDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DropPinDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropPinDriver;
+			};
+			name = Debug;
+		};
+		B7737F1D1ECC53040055825E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751532657ADDCA1830F0B2B4 /* Pods-DropPinDriverUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z39NUD2KRL;
+				INFOPLIST_FILE = DropPinDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DropPinDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropPinDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7737EE31ECC53020055825E /* Build configuration list for PBXProject "DropPinDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7737F131ECC53040055825E /* Debug */,
+				B7737F141ECC53040055825E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7737F151ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7737F161ECC53040055825E /* Debug */,
+				B7737F171ECC53040055825E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7737F181ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7737F191ECC53040055825E /* Debug */,
+				B7737F1A1ECC53040055825E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7737F1B1ECC53040055825E /* Build configuration list for PBXNativeTarget "DropPinDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7737F1C1ECC53040055825E /* Debug */,
+				B7737F1D1ECC53040055825E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7737EE01ECC53010055825E /* Project object */;
+}
